@@ -1,0 +1,4 @@
+i) add the sprite to the scene
+ii) add a box collider to it 
+iii) add the material (Physics) to the collider
+iv) add the script

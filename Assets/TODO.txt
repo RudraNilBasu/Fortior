@@ -1,0 +1,6 @@
+Few changes to be made based on the reviews : 
+
+i) Remove the repeatative background
+ii) Change the position of the Player Killer (Once the Player falls on the ground) 
+iii) Add more puzzles
+iv) Option to save the levels.
