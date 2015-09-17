@@ -10,8 +10,8 @@ on contributing projects to Github.
 
 ###Download 
 
-The final Builds are available on [Gamejolt](http://gamejolt.com/games/fortior/88093).
-The latest builds are also available in the "Builds" folder.
+The final Builds are available on [Gamejolt](http://gamejolt.com/games/fortior/88093)
+. The latest builds are also available in the "Builds" folder.
 
 ###Video/Trailer
 
