@@ -1,6 +1,11 @@
 Few changes to be made based on the reviews : 
 
-i) Remove the repeatative background
-ii) Change the position of the Player Killer (Once the Player falls on the ground) 
+i) Remove the repeatative background[DONE]
+ii) Change the position of the Player Killer (Once the Player falls on the ground)[DONE] 
 iii) Add more puzzles
 iv) Option to save the levels.
+
+Suggestions for Fortior
+i) texts staying for longer period of time, place in diff y directions
+ii) One level full black
+iii) you never know how close you are to success
