@@ -669,6 +669,7 @@ RectTransform:
   m_Children:
   - {fileID: 1836033519}
   - {fileID: 1970936739}
+  - {fileID: 527705975}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_AnchorMin: {x: 0, y: 0}
@@ -1744,6 +1745,72 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7529e941f1adc8a4fb5183ad1767b353, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &527705972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 527705975}
+  - 222: {fileID: 527705974}
+  - 114: {fileID: 527705973}
+  m_Layer: 5
+  m_Name: NextLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &527705973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527705972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a27e5b370f0d5e541823479ed3b05964, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: N To Proceed
+--- !u!222 &527705974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527705972}
+--- !u!224 &527705975
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527705972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 141513830}
+  m_RootOrder: 2
+  m_AnchorMin: {x: .379747987, y: 0}
+  m_AnchorMax: {x: .641390264, y: .0862196684}
+  m_AnchoredPosition: {x: -2.5, y: 0}
+  m_SizeDelta: {x: -1, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!1 &600641130
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,6 +3321,8 @@ MonoBehaviour:
   endParticles: {fileID: 1670075300}
   theText: {fileID: 1836033516}
   theText2: {fileID: 1970936738}
+  canMoveToNextLevel: 0
+  proceedText: {fileID: 527705972}
 --- !u!1 &1157188043
 GameObject:
   m_ObjectHideFlags: 0
@@ -5952,8 +6021,8 @@ MonoBehaviour:
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a27e5b370f0d5e541823479ed3b05964, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 0
+    m_FontSize: 25
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -5981,10 +6050,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 141513830}
   m_RootOrder: 0
-  m_AnchorMin: {x: .161861822, y: .459549189}
-  m_AnchorMax: {x: .808869958, y: .534659028}
-  m_AnchoredPosition: {x: 1, y: 1}
-  m_SizeDelta: {x: -1, y: 4}
+  m_AnchorMin: {x: .170000002, y: .222329482}
+  m_AnchorMax: {x: .812121987, y: .297549158}
+  m_AnchoredPosition: {x: -2.5, y: -3}
+  m_SizeDelta: {x: 2, y: 4}
   m_Pivot: {x: .5, y: .5}
 --- !u!1 &1862822046
 GameObject:
@@ -6168,10 +6237,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 141513830}
   m_RootOrder: 1
-  m_AnchorMin: {x: .0804878175, y: .332329512}
-  m_AnchorMax: {x: .886878073, y: .442109853}
-  m_AnchoredPosition: {x: .100000381, y: 2.9000001}
-  m_SizeDelta: {x: 1.59999847, y: -8}
+  m_AnchorMin: {x: .0804878175, y: .109329492}
+  m_AnchorMax: {x: .885252059, y: .190560713}
+  m_AnchoredPosition: {x: .5, y: -1}
+  m_SizeDelta: {x: 2.59999847, y: 2}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1970936740
 MonoBehaviour:
@@ -6188,8 +6257,8 @@ MonoBehaviour:
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a27e5b370f0d5e541823479ed3b05964, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 0
+    m_FontSize: 25
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40

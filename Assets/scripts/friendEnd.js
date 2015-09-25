@@ -8,6 +8,17 @@ var endParticles : GameObject;
 var theText : GameObject;
 var theText2 : GameObject;
 
+var canMoveToNextLevel = false;
+var proceedText : GameObject;
+
+function Update()
+{
+	if( canMoveToNextLevel && Input.GetKey(KeyCode.N) )
+	{
+		Application.LoadLevel(Application.loadedLevel+1);
+	}
+}
+
 function OnTriggerEnter2D(coll : Collider2D)
 {
 	/*
@@ -29,6 +40,8 @@ function OnTriggerEnter2D(coll : Collider2D)
 		yield WaitForSeconds(1);
 		theText2.SetActive(true);
 		yield WaitForSeconds(5);
-		Application.LoadLevel(Application.loadedLevel+1);
+		canMoveToNextLevel=true;
+		proceedText.SetActive(true);
+		//Application.LoadLevel(Application.loadedLevel+1);
 	}
 }
