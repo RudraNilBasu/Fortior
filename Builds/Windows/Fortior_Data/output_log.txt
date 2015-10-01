@@ -6,53 +6,68 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading G:\Fortior\Builds\Windows\Fortior_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading G:\Fortior\Builds\Windows\Fortior_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading G:\Fortior\Builds\Windows\Fortior_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading G:\Fortior\Builds\Windows\Fortior_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\LD33\Builds\Windows\Fortior_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\LD33\Builds\Windows\Fortior_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading G:\LD33\Builds\Windows\Fortior_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\LD33\Builds\Windows\Fortior_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.061 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: G:\Fortior\Builds\Windows\Fortior_Data\Managed\System.dll (this message is harmless)
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\System.dll (this message is harmless)
 The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1788)
 
-UnloadTime: 3.113123 ms
+UnloadTime: 7.196337 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 725.
-Total: 0.637688 ms (FindLiveObjects: 0.023766 ms CreateObjectMapping: 0.016067 ms MarkObjects: 0.183439 ms  DeleteObjects: 0.011046 ms)
+Total: 1.530451 ms (FindLiveObjects: 0.074648 ms CreateObjectMapping: 0.037156 ms MarkObjects: 0.439184 ms  DeleteObjects: 0.021758 ms)
 
-UnloadTime: 1.335965 ms
+Platform assembly: G:\LD33\Builds\Windows\Fortior_Data\Managed\Boo.Lang.dll (this message is harmless)
+Can not play a disabled audio source
+ 
+(Filename:  Line: 377)
+
+UnloadTime: 0.962390 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 763.
-Total: 1.452121 ms (FindLiveObjects: 0.060923 ms CreateObjectMapping: 0.038830 ms MarkObjects: 0.427468 ms  DeleteObjects: 0.024771 ms)
+Total: 0.843556 ms (FindLiveObjects: 0.035482 ms CreateObjectMapping: 0.022427 ms MarkObjects: 0.268799 ms  DeleteObjects: 0.015398 ms)
+
+UnloadTime: 1.538485 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 673.
+Total: 1.362744 ms (FindLiveObjects: 0.052554 ms CreateObjectMapping: 0.036821 ms MarkObjects: 0.353155 ms  DeleteObjects: 0.009372 ms)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 377)
 
 The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1788)
 
-UnloadTime: 0.923225 ms
+UnloadTime: 1.032352 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 322.
-Total: 1.762095 ms (FindLiveObjects: 0.029122 ms CreateObjectMapping: 0.020754 ms MarkObjects: 0.182101 ms  DeleteObjects: 0.631662 ms)
+Total: 1.944865 ms (FindLiveObjects: 0.047198 ms CreateObjectMapping: 0.033809 ms MarkObjects: 0.274490 ms  DeleteObjects: 0.672166 ms)
 
 The referenced script on this Behaviour is missing!
  
 (Filename:  Line: 1788)
 
-UnloadTime: 0.747819 ms
+UnloadTime: 0.765560 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 322.
-Total: 1.239558 ms (FindLiveObjects: 0.026444 ms CreateObjectMapping: 0.029792 ms MarkObjects: 0.274155 ms  DeleteObjects: 0.007364 ms)
+Total: 1.243575 ms (FindLiveObjects: 0.027114 ms CreateObjectMapping: 0.032135 ms MarkObjects: 0.278842 ms  DeleteObjects: 0.007699 ms)
 
