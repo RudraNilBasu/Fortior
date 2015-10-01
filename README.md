@@ -1,4 +1,4 @@
-![alt tag](https://github.com/RudraNilBasu/Fortior/blob/master/Assets/Screenshot%202015-08-22%2020.58.25.png)
+![alt tag](https://p5b4y2t6.ssl.hwcdn.net/game-header/1200/88093-apvzh9my.jpg)
 
 # Fortior
 
