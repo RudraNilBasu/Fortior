@@ -1,3 +1,5 @@
+![alt tag](https://github.com/RudraNilBasu/Fortior/blob/master/Assets/Screenshot%202015-08-22%2020.58.25.png)
+
 # Fortior
 
 #####A puzzle game for Windows and Web.
