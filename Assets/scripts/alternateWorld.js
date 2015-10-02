@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+import UnityEngine.UI;
+
 var thePlayer : GameObject;
 var theFriend : GameObject;
 var tempPlayer : GameObject;
@@ -8,6 +10,8 @@ var alternatePlayer : GameObject;
 var respawnPosition : Transform;
 var particles : GameObject;
 var altPlayerPosn : Transform;
+var timerText : Text;
+var timerGO : GameObject;
 
 var willStart = false;
 var timer : float = 0.0f;
@@ -22,14 +26,29 @@ function Update ()
 {
 	if(willStart)
 	{
+		timerGO.SetActive(true);
 		timer+=Time.deltaTime;
 		remTime=10-timer;
+		timerText.text="Time Left "+remTime+" seconds";
 		if(timer>10)
 		{
 			willStart=!willStart;
 			restore();
 		}
-		Debug.Log("Remaining "+remTime);
+		if(remTime>3)
+		{
+			//Color is white
+			timerText.color = Color.white;
+		}
+		else
+		{
+			//color is red
+			timerText.color = Color.red;
+		}
+	}
+	else if(!willStart)
+	{
+		timerGO.SetActive(false);
 	}
 }
 
