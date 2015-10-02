@@ -1,5 +1,3 @@
-![alt tag](https://cloud.githubusercontent.com/assets/12744655/10240274/5e61d1ea-68f7-11e5-8dfa-e82a228ef7c2.gif)
-
 # Fortior
 
 #####A puzzle game for Windows and Web.
@@ -18,6 +16,8 @@ The final Builds are available on [Gamejolt](http://gamejolt.com/games/fortior/8
 ###Video/Trailer
 
 The trailer/demonstration of the game (the Ludum Dare jam version) can be found on this link in [YouTube](https://www.youtube.com/watch?v=PoKDs0qaojE)
+
+![alt tag](https://cloud.githubusercontent.com/assets/12744655/10240274/5e61d1ea-68f7-11e5-8dfa-e82a228ef7c2.gif)
 
 ###Softwares
 
