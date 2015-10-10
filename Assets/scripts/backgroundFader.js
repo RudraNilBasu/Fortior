@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var theBackground : GameObject;
-var timeToStay : int = 8; // 8 seconds
+var timeToStay : int ; // 8 seconds
 var willFade = false;
 var currentTime : float;
 
@@ -12,10 +12,12 @@ function Start ()
 
 function Update () 
 {
+	/*
 	if(Input.GetKey(KeyCode.K))
 	{
 		willFade=true;
 	}
+	*/
 	if( willFade )
 	{
 		currentTime+=Time.deltaTime;
@@ -30,7 +32,7 @@ function Update ()
 		}
 		else
 		{
-			Debug.Log("Your End is now");
+			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
 }

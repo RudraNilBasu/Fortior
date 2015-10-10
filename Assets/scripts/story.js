@@ -8,6 +8,8 @@ var fadeOut = false;
 var text : UnityEngine.UI.Text;
 var c : Color;
 
+
+
 function Update()
 {
 	c = text.color;
