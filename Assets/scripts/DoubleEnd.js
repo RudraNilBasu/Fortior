@@ -8,7 +8,7 @@ var theLesson : GameObject;
 
 function OnTriggerEnter2D(coll : Collider2D)
 {
-	if(isLeft==true)
+	if(isLeft==true) // when player enters the collider
 	{
 		endGM.GetComponent(endController).left=1;
 	}
